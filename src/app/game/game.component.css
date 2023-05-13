@@ -57,13 +57,13 @@
 }
 
 button{
-    border-color: white;
-    background-color: #B6D1D7;
+    border: solid;
+    border-width: 2px !important;
 }
 
 button[disabled]{
-    border-color: #a4becb;
-    background-color: #8aabb2;
+    border-color: #a4becb !important;
+    background-color: #8aabb2 !important;
 }
 
 .message{

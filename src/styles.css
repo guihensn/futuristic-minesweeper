@@ -5,6 +5,10 @@
 *{
   color: white;
   font-family: 'Keania One', cursive;
+  
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 button:hover{
@@ -57,7 +61,23 @@ body,html {
 }
 
 body{
-    background-color: #252F3D;
+  background-color: #252F3D;
+  --ion-background-color: #252F3D;
+}
+
+button{
+  background-color: #B6D1D7 !important;
+  border-color:white !important;
+  border-bottom-color: gray !important;
+  border-right-color: gray !important;
+}
+
+button:active{
+  background-color: #B6D1D7 !important;
+  border-top-color:gray !important;
+  border-left-color:gray !important;
+  border-bottom-color:white !important;
+  border-right-color:white !important;
 }
 
 /* width */
