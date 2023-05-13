@@ -1,0 +1,7 @@
+{
+  "name": "mine-field-angular",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}

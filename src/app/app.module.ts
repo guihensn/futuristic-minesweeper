@@ -9,6 +9,7 @@ import { CustomGameMenuComponent } from './custom-game-menu/custom-game-menu.com
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { GameComponent } from './game/game.component';
 import { GameMenuComponent } from './game-menu/game-menu.component';
+import { IonicModule } from '@ionic/angular';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { GameMenuComponent } from './game-menu/game-menu.component';
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
+    IonicModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]
